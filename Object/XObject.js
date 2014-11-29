@@ -8,9 +8,4 @@
         Object.apply(this,arguments);
     }
     XObject.create = Object.create;
-    var xobj = new XObject();
-
-    alert(XObject.create);
-    alert(Object.create)
-    alert("扩展的object:"+new Object().create);
 })(window);
